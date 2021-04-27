@@ -31,11 +31,8 @@ function App() {
         task: update,
         id: date
       }])
-    }
-    
-    
+    }  
     setUpdate('')
-
   }
 
   const deleteTask = e => {
@@ -48,16 +45,13 @@ function App() {
   const editTask = (task, id) => {
     setShowEdit(true)
 
-
     for(let i=0; i<todos.length; i++) {
       if(id === todos[i].id) {
         setUpdate(todos[i].task)
         setEditTodoWithId(todos[i].id)
         
       }
-    }
-
-    
+    }    
   }
   
 

@@ -3,10 +3,7 @@ import './Todos.css';
 
 const Todos = (props) => {
 
-  // state for editing a task
-//   const [ edit, setEdit ] = useState('')
-  
-//   const [ show, setShow ] = useState(false);
+
     return (
         <div key={props.id}  className='todos' >
             <h2>
